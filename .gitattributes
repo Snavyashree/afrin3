@@ -1,2 +1,46 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import pandas as pd
+import numpy as np
+import seaborn as sns
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (5)/Alphabet Stock.csv")
+print(df)
+
+
+pwd
+
+df.describe()
+
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (4)/cars93.csv")
+print(df)
+
+df.isnull()
+
+df.notna()
+
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (2)/House_price.csv",header=0)
+print(df)
+
+pwd
+
+df.head()
+
+df.shape
+
+df.describe()
+
+sns.jointplot(x='n_hot_rooms', y="price", data=df)
+
+sns.jointplot(x='rainfall', y="price", data=df)
+
+sns.jointplot(x='airport', y="price",data=df)
+
+sns.jointplot(x='waterbody', y="price",data=df)
+
+sns.jointplot(x='waterbody', y="price",data=df)
+
+df.head()
+
+
